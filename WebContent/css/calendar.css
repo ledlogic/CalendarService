@@ -1,0 +1,14 @@
+pre.code {
+	white-space: pre;
+	word-wrap: normal;
+	background-color: #333;
+	overflow: auto;
+	color: #fff;
+	padding: 10px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.25) inset;
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.25) inset;
+	-ms-box-shadow: 0 0 15px rgba(0,0,0,0.25) inset;
+	-o-box-shadow: 0 0 15px rgba(0,0,0,0.25) inset;
+	box-shadow: 0 0 15px rgba(0,0,0,0.25) 
+}

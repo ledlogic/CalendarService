@@ -101,6 +101,10 @@ body {
 	border-radius: 2px;
 }
 
+.main aside a {
+    color: #c19d0d;
+}
+
 .title {
     color: #333333;
 }
@@ -123,7 +127,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: #333333;
+    color: #c19d0d;
     background: #e4ac26;
 }
 
@@ -160,7 +164,7 @@ nav a:hover {
 }
 
 .footer-container footer a {
-    color: #333333;
+    color: #c19d0d;
 }
 
 /* ===============
