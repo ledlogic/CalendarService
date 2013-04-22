@@ -4,8 +4,8 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
-@Path("/service")
-public class CalendarService {	
+@Path("/echo.jer")
+public class CalendarEchoService {	
 	@GET
 	@Produces("text/calendar")
     public String getCalendar() {

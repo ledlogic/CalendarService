@@ -11,8 +11,8 @@ public class CalendarApplication extends Application {
     @Override
     public Set<Class<?>> getClasses() {
         final Set<Class<?>> classes = new HashSet<Class<?>>();
-        classes.add(CalendarFile.class);
-        classes.add(CalendarService.class);
+        classes.add(CalendarFileService.class);
+        classes.add(CalendarEchoService.class);
         return classes;
     }
 }

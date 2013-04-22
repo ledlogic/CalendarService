@@ -12,3 +12,67 @@ pre.code {
 	-o-box-shadow: 0 0 15px rgba(0,0,0,0.25) inset;
 	box-shadow: 0 0 15px rgba(0,0,0,0.25) 
 }
+
+/* rounded added */
+.main aside {
+    -webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+/* Gold theme */
+
+/*
+e4ac26 -> e4ac26
+f1c929 -> f1c929
+white -> 333333
+*/
+
+.header-container {
+    border-bottom: 20px solid #e4ac26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e4ac26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f1c929;
+}
+
+.main aside a {
+    color: #c19d0d;
+}
+
+.title {
+    color: #333333;
+}
+
+nav a {
+    color: #c19d0d;
+    background: #e4ac26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: #333333;
+}
+
+.main {
+	color: #666666;
+}
+
+.main aside {
+    color: #333333;
+}
+
+.footer-container footer {
+    color: #333333;
+}
+
+.footer-container footer a {
+    color: #c19d0d;
+}

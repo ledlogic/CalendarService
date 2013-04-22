@@ -2,12 +2,6 @@
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
-/*
-e4ac26 -> e4ac26
-f1c929 -> f1c929
-white -> 333333
-*/
-
 html,
 button,
 input,
@@ -80,39 +74,28 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e4ac26;
+    border-bottom: 20px solid #e44d26;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e4ac26;
+    border-top: 20px solid #e44d26;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f1c929;
-}
-
-/* rounded added */
-.main aside {
-    -webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-}
-
-.main aside a {
-    color: #c19d0d;
+    background: #f16529;
 }
 
 .title {
-    color: #333333;
+    color: white;
 }
 
 /* ==============
     MOBILE: Menu
    ============== */
-	
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -127,13 +110,13 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: #c19d0d;
-    background: #e4ac26;
+    color: white;
+    background: #e44d26;
 }
 
 nav a:hover,
 nav a:visited {
-    color: #333333;
+    color: white;
 }
 
 nav a:hover {
@@ -145,7 +128,6 @@ nav a:hover {
    ============== */
 
 .main {
-	color: #666666;
     padding: 30px 0;
 }
 
@@ -154,17 +136,13 @@ nav a:hover {
 }
 
 .main aside {
-    color: #333333;
+    color: white;
     padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    color: #333333;
+    color: white;
     padding: 20px 0;
-}
-
-.footer-container footer a {
-    color: #c19d0d;
 }
 
 /* ===============

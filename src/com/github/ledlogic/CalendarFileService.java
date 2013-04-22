@@ -12,7 +12,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 
 @Path("/file/{filename}")
-public class CalendarFile {	
+public class CalendarFileService {	
 	@GET
 	@Produces("text/calendar")
     public Response getFile(

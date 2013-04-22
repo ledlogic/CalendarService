@@ -16,6 +16,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>com.github.ledlogic.CalendarApplication</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>*.jer</url-pattern>
     </servlet-mapping>
 </web-app>
