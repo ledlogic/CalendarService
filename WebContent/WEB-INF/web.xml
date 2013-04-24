@@ -16,6 +16,10 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>com.github.ledlogic.CalendarApplication</servlet-name>
-        <url-pattern>*.jer</url-pattern>
+        <url-pattern>*.ics</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>com.github.ledlogic.CalendarApplication</servlet-name>
+        <url-pattern>*.vcf</url-pattern>
     </servlet-mapping>
 </web-app>

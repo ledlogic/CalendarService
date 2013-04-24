@@ -13,6 +13,7 @@ public class CalendarApplication extends Application {
         final Set<Class<?>> classes = new HashSet<Class<?>>();
         classes.add(CalendarFileService.class);
         classes.add(CalendarEchoService.class);
+        classes.add(ContactFileService.class);
         return classes;
     }
 }

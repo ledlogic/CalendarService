@@ -33,31 +33,35 @@
                 <article>
                     <section>
                         <h2>Introduction</h2>
-						<p>This is a service for creating icalendar documents.
+						<p>This is a service for creating iCalendar and vcard documents.
 						Developers may link their href or forms to this service, the user clicks on the links provided,
 						and depending on their device, they are presented with the event details ready for saving to 
 						their calendar software.</p>
                     </section>
                     <section>
                         <h2>Why?</h2>
-                        <p>I found it's frustrating to be using a tablet or mobile device, see an event, but be unable
-                        to get that event simply into my device's calendar program.</p>
+                        <p>I found it's frustrating to be using a tablet or mobile device, see an event or contact
+                        information, but be unable to get that event simply into my device's calendar program.</p>
                     </section>
                     <section>
                         <h3>How?</h3>
-                        <p>The iCalendar spec defines a syntax for loading calendar events into a system.</p>
-                    </section>
-                    <section>
-                        <h3>Example</h3>
-                        <p>Here is an example ICalendar document:</p>
-						<pre class="code"><%@ include file="ics/example01.ics" %></pre>
-                    </section>
+	                    <p>Here is an example ICalendar document:</p>
+						<pre class="code"><%@ include file="res/example01.ics" %></pre>
+						<a href="/apps/calendar/ics/example01.ics">file service</a>
+						
+						<p>Here is an example vCard document:</p>
+						<pre class="code"><%@ include file="res/example01.vcf" %></pre>
+						<a href="/apps/calendar/vcf/example01.vcf">file service</a>
+                    </section>             
                 </article>
 
                 <aside>
                     <h3>Which Standard?</h3>
-                    <p>The <a href="http://www.imc.org/pdi/vcaloverview.html">vCalendar</a> standard was created
-                    to facilitate copying calendar events between platforms. 
+                    <p>The <a href="http://en.wikipedia.org/wiki/ICalendar">iCalendar spec</a>
+                     	defines a syntax for sharing calendar events between systems.
+                    </p>
+                    <p>The <a href="http://en.wikipedia.org/wiki/VCard">vCard spec</a> defines a format for sharing
+                    	contact information between systems.
                     </p>
                 </aside>
 
@@ -70,7 +74,7 @@
                 <p><a href="https://github.com/ledlogic/CalendarService">github</a> - where this application is stored</p>
                 <p><a href="http://www.colorhexa.com/f16529">Colors</a> - Nice color utility</p>
                 <p><a href="http://www.imc.org/pdi/">vCard and vCalendar site</a></p>
-                <p><a href="http://www.initializr.com">initializr</a></p> - where the style for this project comes from.
+                <p><a href="http://www.initializr.com">initializr</a> - where the style for this project comes from.</p>
                 <p><a href="https://android.googlesource.com/platform/packages/providers/CalendarProvider/+/donut-release2/src/com/android/providers/calendar/VCal.java">vCal parser in donut 2</a></p>
             </footer>
         </div>

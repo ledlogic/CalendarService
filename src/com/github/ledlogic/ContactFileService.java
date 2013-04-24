@@ -11,10 +11,10 @@ import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 
-@Path("/ics/{filename}")
-public class CalendarFileService {	
+@Path("/vcf/{filename}")
+public class ContactFileService {	
 	@GET
-	@Produces("text/calendar")
+	@Produces("text/vcard")
     public Response getFile(
     		@PathParam("filename") String filename,
     		@Context ServletContext context) {
@@ -23,6 +23,6 @@ public class CalendarFileService {
 		if (!file.exists()) {
 			throw new WebApplicationException(404);
 		}
-		return Response.ok(file, "text/calendar").build();
+		return Response.ok(file, "text/vcard").build();
     }
 }
